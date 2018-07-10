@@ -1,60 +1,75 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Pan Yue 's homepage</title>
-    </head>
-    <body>
-       <p>
-         <strong><span style="font-size:24px;color:#337FE5;">Yue Pan 潘越 (Edward)'s Homepage</span></strong><span style="font-size:24px;color:#337FE5;"></span>
-      </p>
-      <p>
-         <span style="color:#337FE5;font-family:&quot;font-size:18px;"><span style="color:#000000;"><span style="font-size:18px;"></span><span style="font-size:16px;"><span style="font-size:18px;">H</span><span style="font-size:16px;">ello, welcome to my homepage. I'm Yue Pan Edward from China.</span></span></span><br />
-         </span>
-      </p>
 
-      <p>
-         <span><span style="font-size:16px;">I am currently an undergraduate student majoring in Geodesy and Geomatics (also known as Surveying and Mapping) at Wuhan University.</span></span>
-      </p>
-      <p>
-         <span><span style="font-size:16px;">At present, I am acting as a research assistant funded by CSC and Mitacs at University of Alberta - Edmonton on the topic of SLAM.</span></span>
-      </p>
-      <p>
-         <span><span style="font-size:16px;">My research interest is on Point Cloud Technology (3D Compter Vision),&nbsp; SLAM (Robotics) and sensor integration.</span></span>
-      </p>
+<!doctype html>
+<html class="no-js" lang="" id="mainIndex">
 
-      <img src="D:\others\Me.jpg" alt="" />
-      <p>
-        <br />
-      </p>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1, maximum-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="192x192" href="assets/img/S-192.png">
+    <link rel="icon" sizes="144x144" href="assets/img/S-144.png">
+    <link rel="icon" sizes="96x96" href="assets/img/S-96.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/img/S-192.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/img/S-192.png">
+    <link rel="apple-touch-startup-image" href="assets/img/apple-launch.png">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montez|Dancing+Script|Pacifico|Unkempt|Patrick+Hand|Roboto:100,300,400,500,700">
+    <link rel="stylesheet" href="css/libs.css?v=8f5755dc108cc485f6a16d53e7188e6f">
+    <link rel="stylesheet" href="css/app.css?v=073c0a94ad7c6fc85d8ead63218942c6">
 
-      <p>
-        <h2 style="color:#444444;font-size:22px;font-family:&quot;text-align:justify;background-color:#FFFFFF;">
-           <span style="color:#006600;font-family:&quot;font-size:18px;">Contract Information</span>
-        </h2>
-      <p style="color:#64451D;">
-         <span style="color:#006600;font-family:&quot;font-size:18px;"><span style="color:#000000;"><span style="font-size:16px;">Email: panyue@whu.edu.cn&nbsp; /&nbsp; yp6@ualberta.ca</span></span><br />
-         </span>
-      </p>
-      <p>
-         <span><span style="font-size:16px;">Research Gate:&nbsp;<a href="https://www.researchgate.net/profile/Yue_Pan36" target="_blank">https://www.researchgate.net/profile/Yue_Pan36</a></span></span>
-      </p>
-         <span style="color:#64451D;font-size:18px;"></span>
-      </p>
-      <p>
-      <span style="color:#64451D;font-size:18px;"><br />
-      </span>
-      </p>
-      <p>
-      <br />
-      </p>
-      <p>
-      <span><span style="font-size:14px;"><br />
-      </span></span>
-      </p>
-      <p>
-      <br />
-      </p>
-    </body>
+    <title>SimpleSite</title>
+    <!--[if lte IE 9]>
+        <script>
+            if (!window.location.origin) {
+                window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
+            }
+            window.location.href = window.location.origin+"/nosupport-browsers.html";
+        </script>
+    <![endif]-->
+    <script src="js/libs.js?v=807193939c90a152e82edf4162075b52"></script>
+    <script src="js/partials.js?v=c358d4f186b4ca01e25c81a34e8b46ef"></script>
+    <script src="js/main.js?v=2f3bbf290bcc5b994ee64a49aab8d578"></script>
+</head>
+
+<body zf-esc-close>
+
+    <div id="main-controller" ng-controller="IndexController as vm">
+        <div ui-view>
+
+            <style>
+                @keyframes spinny {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        transform: rotate(-360deg);
+                    }
+                }
+            </style>
+
+            <div style="display: flex; align-items: center; height: 100%; justify-content: center">
+                <div>
+                    <div style="text-align: center; padding-top: 40px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 1rem; line-height: 1.6; color: #4b4b4b; margin-bottom: 1.25rem; display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        <div style="margin: auto; width: 50px; height: 50px; border-radius: 50%;  border: 2px solid transparent; border-top: 2px solid #E54D42; border-bottom: 2px solid #E54D42; animation: spinny 1.2s ease-in-out infinite;"></div>
+                        <p style="margin-top: 30px;font-size: 11px; color: #A09F9E; letter-spacing: 1.2px; text-transform: uppercase;">
+                            Your website editor is loading.<br/>
+                            Please wait...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- global available notifications -->
+        <zf-notification-set id="global-notification"></zf-notification-set>
+
+    </div>
+</body>
+
 </html>
