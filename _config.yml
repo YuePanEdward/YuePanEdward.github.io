@@ -1,6 +1,6 @@
 # Site settings
 title: Yue Pan
-description: 'Welcome, nice to meet you'
+description: 'Geomatics expresses our world'
 url: 'https://yuepanedward.github.io/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -10,7 +10,7 @@ author:
   name: 'Yue Pan'
   email: panyue@whu.edu.cn
   #twitter_username: joshgerdes
-  #facebook_username: joshgerdes
+  facebook_username: joshgerdes
   github_username:  YuePanEdward
   linkedin_username: https://www.linkedin.com/in/yue-pan-59461b148/  
 defaults:
