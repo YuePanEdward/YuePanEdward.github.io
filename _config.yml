@@ -12,8 +12,7 @@ author:
   #twitter_username: joshgerdes
   #facebook_username: joshgerdes
   github_username:  YuePanEdward
-  #linkedin_username:  joshgerdes
-
+  linkedin_username: https://www.linkedin.com/in/yue-pan-59461b148/  
 defaults:
   -
     scope:
