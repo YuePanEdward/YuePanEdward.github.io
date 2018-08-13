@@ -10,9 +10,9 @@ author:
   name: 'Yue Pan'
   email: panyue@whu.edu.cn
   #twitter_username: joshgerdes
-  facebook_username: joshgerdes
+  #facebook_username: joshgerdes
   github_username:  YuePanEdward
-  linkedin_username: https://www.linkedin.com/in/yue-pan-59461b148/  
+  #linkedin_username: 
 defaults:
   -
     scope:
