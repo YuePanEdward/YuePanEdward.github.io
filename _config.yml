@@ -8,11 +8,11 @@ baseurl: '/'
 
 author:
   name: 'Yue Pan'
-  email: yuepan@student.ethz.ch
+  email: yuepan@ethz.ch
   #twitter_username: joshgerdes
   #facebook_username: joshgerdes
   github_username:  YuePanEdward
-  #linkedin_username: 
+  linkedin_username: yue-pan-59461b148
 defaults:
   -
     scope:
